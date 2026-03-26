@@ -1,103 +1,187 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="1280" height="640" viewBox="0 0 1280 640" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0a0a0a"/>
-      <stop offset="50%" stop-color="#0d1117"/>
-      <stop offset="100%" stop-color="#0a0a0a"/>
-    </linearGradient>
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
+    <!-- Filters from original logo -->
+    <filter id="neon-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
       <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="strong-glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
     <filter id="text-glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
+
+    <!-- Gradients from original logo -->
+    <radialGradient id="bg-grad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#001408"/>
+      <stop offset="100%" stop-color="#080c08"/>
+    </radialGradient>
+    <radialGradient id="inner-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00ff46" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#00ff46" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Background gradient -->
+    <linearGradient id="page-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050805"/>
+      <stop offset="50%" stop-color="#0a0f0a"/>
+      <stop offset="100%" stop-color="#050805"/>
+    </linearGradient>
   </defs>
 
-  <!-- Background -->
-  <rect width="1280" height="640" fill="url(#bg-gradient)"/>
+  <!-- Main Background -->
+  <rect width="1280" height="640" fill="url(#page-bg)"/>
 
-  <!-- Grid pattern -->
-  <g stroke="#1a1a2e" stroke-width="1" opacity="0.3">
-    <line x1="0" y1="160" x2="1280" y2="160"/>
-    <line x1="0" y1="320" x2="1280" y2="320"/>
-    <line x1="0" y1="480" x2="1280" y2="480"/>
+  <!-- Background grid pattern (matching logo style) -->
+  <g stroke="#003c0f" stroke-width="0.5" opacity="0.3">
+    <!-- Vertical lines -->
+    <line x1="0" y1="0" x2="0" y2="640"/>
+    <line x1="80" y1="0" x2="80" y2="640"/>
+    <line x1="160" y1="0" x2="160" y2="640"/>
+    <line x1="240" y1="0" x2="240" y2="640"/>
     <line x1="320" y1="0" x2="320" y2="640"/>
+    <line x1="400" y1="0" x2="400" y2="640"/>
+    <line x1="480" y1="0" x2="480" y2="640"/>
+    <line x1="560" y1="0" x2="560" y2="640"/>
     <line x1="640" y1="0" x2="640" y2="640"/>
+    <line x1="720" y1="0" x2="720" y2="640"/>
+    <line x1="800" y1="0" x2="800" y2="640"/>
+    <line x1="880" y1="0" x2="880" y2="640"/>
     <line x1="960" y1="0" x2="960" y2="640"/>
+    <line x1="1040" y1="0" x2="1040" y2="640"/>
+    <line x1="1120" y1="0" x2="1120" y2="640"/>
+    <line x1="1200" y1="0" x2="1200" y2="640"/>
+    <line x1="1280" y1="0" x2="1280" y2="640"/>
+    <!-- Horizontal lines -->
+    <line x1="0" y1="0" x2="1280" y2="0"/>
+    <line x1="0" y1="80" x2="1280" y2="80"/>
+    <line x1="0" y1="160" x2="1280" y2="160"/>
+    <line x1="0" y1="240" x2="1280" y2="240"/>
+    <line x1="0" y1="320" x2="1280" y2="320"/>
+    <line x1="0" y1="400" x2="1280" y2="400"/>
+    <line x1="0" y1="480" x2="1280" y2="480"/>
+    <line x1="0" y1="560" x2="1280" y2="560"/>
+    <line x1="0" y1="640" x2="1280" y2="640"/>
   </g>
 
-  <!-- Decorative circles -->
-  <circle cx="100" cy="100" r="200" fill="none" stroke="#4ade80" stroke-width="1" opacity="0.1"/>
-  <circle cx="1180" cy="540" r="250" fill="none" stroke="#4ade80" stroke-width="1" opacity="0.1"/>
+  <!-- Decorative corner glows -->
+  <ellipse cx="0" cy="0" rx="300" ry="300" fill="#00ff46" opacity="0.03"/>
+  <ellipse cx="1280" cy="640" rx="400" ry="400" fill="#00ff46" opacity="0.03"/>
 
-  <!-- Logo container -->
-  <g transform="translate(640, 200)">
-    <!-- Outer glow ring -->
-    <circle cx="0" cy="0" r="95" fill="none" stroke="#4ade80" stroke-width="8" opacity="0.15"/>
-    <circle cx="0" cy="0" r="95" fill="none" stroke="#4ade80" stroke-width="4" opacity="0.3"/>
+  <!-- ========== LOGO (scaled to 180x180, centered at 640, 185) ========== -->
+  <g transform="translate(640, 185) scale(0.703)">
+    <!-- Background -->
+    <rect x="-116" y="-116" width="232" height="232" rx="51" ry="51" fill="url(#bg-grad)"/>
 
-    <!-- Main circle -->
-    <circle cx="0" cy="0" r="90" fill="#0d1117" stroke="#4ade80" stroke-width="3" filter="url(#glow)"/>
+    <!-- Grid lines -->
+    <g stroke="#003c0f" stroke-width="0.5" opacity="0.5">
+      <line x1="-116" y1="-116" x2="-116" y2="116"/><line x1="-100" y1="-116" x2="-100" y2="116"/><line x1="-84" y1="-116" x2="-84" y2="116"/><line x1="-68" y1="-116" x2="-68" y2="116"/><line x1="-52" y1="-116" x2="-52" y2="116"/><line x1="-36" y1="-116" x2="-36" y2="116"/><line x1="-20" y1="-116" x2="-20" y2="116"/><line x1="-4" y1="-116" x2="-4" y2="116"/><line x1="12" y1="-116" x2="12" y2="116"/><line x1="28" y1="-116" x2="28" y2="116"/><line x1="44" y1="-116" x2="44" y2="116"/><line x1="60" y1="-116" x2="60" y2="116"/><line x1="76" y1="-116" x2="76" y2="116"/><line x1="92" y1="-116" x2="92" y2="116"/><line x1="108" y1="-116" x2="108" y2="116"/>
+      <line x1="-116" y1="-116" x2="116" y2="-116"/><line x1="-116" y1="-100" x2="116" y2="-100"/><line x1="-116" y1="-84" x2="116" y2="-84"/><line x1="-116" y1="-68" x2="116" y2="-68"/><line x1="-116" y1="-52" x2="116" y2="-52"/><line x1="-116" y1="-36" x2="116" y2="-36"/><line x1="-116" y1="-20" x2="116" y2="-20"/><line x1="-116" y1="-4" x2="116" y2="-4"/><line x1="-116" y1="12" x2="116" y2="12"/><line x1="-116" y1="28" x2="116" y2="28"/><line x1="-116" y1="44" x2="116" y2="44"/><line x1="-116" y1="60" x2="116" y2="60"/><line x1="-116" y1="76" x2="116" y2="76"/><line x1="-116" y1="92" x2="116" y2="92"/><line x1="-116" y1="108" x2="116" y2="108"/>
+    </g>
+
+    <!-- Inner ambient glow -->
+    <ellipse cx="0" cy="0" rx="90" ry="90" fill="url(#inner-glow)"/>
+
+    <!-- Outer ring glow -->
+    <circle cx="0" cy="0" r="100" fill="none" stroke="#00ff46" stroke-width="12" opacity="0.1"/>
+    <circle cx="0" cy="0" r="100" fill="none" stroke="#00ff46" stroke-width="8" opacity="0.2"/>
+    <!-- Outer ring -->
+    <circle cx="0" cy="0" r="100" fill="none" stroke="#00ff46" stroke-width="4" filter="url(#neon-glow)" opacity="0.9"/>
 
     <!-- Inner ring -->
-    <circle cx="0" cy="0" r="65" fill="none" stroke="#22543d" stroke-width="1.5" opacity="0.7"/>
+    <circle cx="0" cy="0" r="72" fill="none" stroke="#008c28" stroke-width="2" opacity="0.7"/>
 
-    <!-- Shield -->
-    <polygon points="-35,5 0,-15 35,5 35,35 0,70 -35,35" fill="#0d2818" opacity="0.9"/>
-    <polygon points="-35,5 0,-15 35,5 35,35 0,70 -35,35" fill="none" stroke="#4ade80" stroke-width="2.5" filter="url(#glow)"/>
+    <!-- Tick marks -->
+    <line x1="96" y1="0" x2="86" y2="0" stroke="#78ff8c" stroke-width="2"/>
+    <line x1="67.9" y1="67.9" x2="64.3" y2="64.3" stroke="#008c28" stroke-width="2"/>
+    <line x1="0" y1="96" x2="0" y2="86" stroke="#78ff8c" stroke-width="2"/>
+    <line x1="-67.9" y1="67.9" x2="-64.3" y2="64.3" stroke="#008c28" stroke-width="2"/>
+    <line x1="-96" y1="0" x2="-86" y2="0" stroke="#78ff8c" stroke-width="2"/>
+    <line x1="-67.9" y1="-67.9" x2="-64.3" y2="-64.3" stroke="#008c28" stroke-width="2"/>
+    <line x1="0" y1="-96" x2="0" y2="-86" stroke="#78ff8c" stroke-width="2"/>
+    <line x1="67.9" y1="-67.9" x2="64.3" y2="-64.3" stroke="#008c28" stroke-width="2"/>
 
-    <!-- MW Letters -->
-    <polyline points="-18,55 -18,25 -9,38 0,25 0,55" fill="none" stroke="#86efac" stroke-width="2.5" stroke-linejoin="miter" filter="url(#text-glow)"/>
-    <polyline points="5,25 9,55 14,41 19,55 24,25" fill="none" stroke="#86efac" stroke-width="2.5" stroke-linejoin="miter" filter="url(#text-glow)"/>
+    <!-- Shield fill -->
+    <polygon points="-40,-30 0,-45 40,-30 40,5 0,45 -40,5" fill="#003c0f" opacity="0.85"/>
+    <!-- Shield glow -->
+    <polygon points="-40,-30 0,-45 40,-30 40,5 0,45 -40,5" fill="none" stroke="#00ff46" stroke-width="7" opacity="0.15"/>
+    <polygon points="-40,-30 0,-45 40,-30 40,5 0,45 -40,5" fill="none" stroke="#00ff46" stroke-width="5" opacity="0.25"/>
+    <!-- Shield outline -->
+    <polygon points="-40,-30 0,-45 40,-30 40,5 0,45 -40,5" fill="none" stroke="#00ff46" stroke-width="3" filter="url(#neon-glow)"/>
+
+    <!-- MW lettermark glow -->
+    <polyline points="-21,13 -21,-17 -12,-4 -2,-17 -2,13" fill="none" stroke="#00ff46" stroke-width="7" stroke-linejoin="miter" opacity="0.15"/>
+    <polyline points="-21,13 -21,-17 -12,-4 -2,-17 -2,13" fill="none" stroke="#00ff46" stroke-width="5" stroke-linejoin="miter" opacity="0.25"/>
+    <!-- M -->
+    <polyline points="-21,13 -21,-17 -12,-4 -2,-17 -2,13" fill="none" stroke="#78ff8c" stroke-width="3" stroke-linejoin="miter" filter="url(#strong-glow)"/>
+
+    <!-- W glow -->
+    <polyline points="2,-17 6,13 11,-1 16,13 21,-17" fill="none" stroke="#00ff46" stroke-width="7" stroke-linejoin="miter" opacity="0.15"/>
+    <polyline points="2,-17 6,13 11,-1 16,13 21,-17" fill="none" stroke="#00ff46" stroke-width="5" stroke-linejoin="miter" opacity="0.25"/>
+    <!-- W -->
+    <polyline points="2,-17 6,13 11,-1 16,13 21,-17" fill="none" stroke="#78ff8c" stroke-width="3" stroke-linejoin="miter" filter="url(#strong-glow)"/>
 
     <!-- Lock shackle -->
-    <path d="M -8,-25 A 8,8 0 0,1 8,-25" fill="none" stroke="#4ade80" stroke-width="2" filter="url(#glow)"/>
-    <line x1="-8" y1="-25" x2="-8" y2="-15" stroke="#4ade80" stroke-width="2"/>
-    <line x1="8" y1="-25" x2="8" y2="-15" stroke="#4ade80" stroke-width="2"/>
+    <path d="M -10,-53 A 10,10 0 0,1 10,-53" fill="none" stroke="#00ff46" stroke-width="2" filter="url(#neon-glow)" opacity="0.9"/>
+    <line x1="-10" y1="-53" x2="-10" y2="-43" stroke="#00ff46" stroke-width="2" opacity="0.9"/>
+    <line x1="10" y1="-53" x2="10" y2="-43" stroke="#00ff46" stroke-width="2" opacity="0.9"/>
   </g>
 
-  <!-- Title -->
-  <text x="640" y="360" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="72" font-weight="700" fill="#ffffff" filter="url(#text-glow)">MyWorld</text>
+  <!-- ========== TITLE ========== -->
+  <text x="640" y="370" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="80" font-weight="700" fill="#ffffff" filter="url(#text-glow)">MyWorld</text>
 
-  <!-- Subtitle -->
-  <text x="640" y="420" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="400" fill="#9ca3af">Secure, Fast &amp; Offline Password Manager</text>
+  <!-- ========== TAGLINE ========== -->
+  <text x="640" y="430" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="400" fill="#78ff8c" opacity="0.9">Secure, Fast &amp; Offline Password Manager</text>
 
-  <!-- Feature badges -->
-  <g transform="translate(640, 500)">
-    <!-- AES-256 -->
-    <g transform="translate(-280, 0)">
-      <rect x="-70" y="-18" width="140" height="36" rx="18" fill="#166534" opacity="0.8"/>
-      <text x="0" y="6" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600" fill="#86efac">AES-256</text>
+  <!-- ========== FEATURE BADGES ========== -->
+  <g transform="translate(640, 510)">
+    <!-- AES-256 Badge -->
+    <g transform="translate(-300, 0)">
+      <rect x="-65" y="-20" width="130" height="40" rx="20" fill="#003c0f" stroke="#00ff46" stroke-width="1" opacity="0.8"/>
+      <text x="0" y="7" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600" fill="#78ff8c">AES-256</text>
     </g>
 
-    <!-- Offline -->
-    <g transform="translate(-90, 0)">
-      <rect x="-60" y="-18" width="120" height="36" rx="18" fill="#1e3a5f" opacity="0.8"/>
-      <text x="0" y="6" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600" fill="#93c5fd">100% Offline</text>
+    <!-- Offline Badge -->
+    <g transform="translate(-100, 0)">
+      <rect x="-70" y="-20" width="140" height="40" rx="20" fill="#003c0f" stroke="#00ff46" stroke-width="1" opacity="0.8"/>
+      <text x="0" y="7" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600" fill="#78ff8c">100% Offline</text>
     </g>
 
-    <!-- No Telemetry -->
-    <g transform="translate(90, 0)">
-      <rect x="-65" y="-18" width="130" height="36" rx="18" fill="#7f1d1d" opacity="0.8"/>
-      <text x="0" y="6" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600" fill="#fca5a5">No Telemetry</text>
+    <!-- No Telemetry Badge -->
+    <g transform="translate(100, 0)">
+      <rect x="-70" y="-20" width="140" height="40" rx="20" fill="#003c0f" stroke="#00ff46" stroke-width="1" opacity="0.8"/>
+      <text x="0" y="7" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600" fill="#78ff8c">No Telemetry</text>
     </g>
 
-    <!-- Windows -->
-    <g transform="translate(280, 0)">
-      <rect x="-60" y="-18" width="120" height="36" rx="18" fill="#1e40af" opacity="0.8"/>
-      <text x="0" y="6" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600" fill="#bfdbfe">Windows</text>
+    <!-- Windows Badge -->
+    <g transform="translate(300, 0)">
+      <rect x="-65" y="-20" width="130" height="40" rx="20" fill="#003c0f" stroke="#00ff46" stroke-width="1" opacity="0.8"/>
+      <text x="0" y="7" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600" fill="#78ff8c">Windows</text>
     </g>
   </g>
 
-  <!-- Bottom URL -->
-  <text x="640" y="590" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#6b7280">github.com/moneraldabai-ui/MyWorld</text>
+  <!-- ========== GITHUB URL ========== -->
+  <text x="640" y="595" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#008c28" opacity="0.8">github.com/moneraldabai-ui/MyWorld</text>
+
+  <!-- Corner accent lines -->
+  <line x1="40" y1="40" x2="120" y2="40" stroke="#00ff46" stroke-width="2" opacity="0.5"/>
+  <line x1="40" y1="40" x2="40" y2="120" stroke="#00ff46" stroke-width="2" opacity="0.5"/>
+
+  <line x1="1240" y1="600" x2="1160" y2="600" stroke="#00ff46" stroke-width="2" opacity="0.5"/>
+  <line x1="1240" y1="600" x2="1240" y2="520" stroke="#00ff46" stroke-width="2" opacity="0.5"/>
 </svg>
