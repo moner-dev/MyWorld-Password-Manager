@@ -226,4 +226,4 @@ main.py
 requirements.txt
 How To Run SERVERS_ARCHITECTURE.md
 *.jpg
-.github/
+# .github/ - Keeping issue templates public

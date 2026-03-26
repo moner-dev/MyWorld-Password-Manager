@@ -1,0 +1,122 @@
+name: Feature Request
+description: Suggest a new feature or improvement for MyWorld
+title: "[Feature]: "
+labels: ["enhancement", "triage"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Thanks for your feature suggestion!
+        We love hearing ideas from our users. Please describe your idea in detail.
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Pre-submission Checklist
+      description: Please confirm the following before submitting
+      options:
+        - label: I have searched existing issues and this feature hasn't been requested
+          required: true
+        - label: This feature aligns with MyWorld's goals (security, offline, privacy)
+          required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Feature Category
+      description: What area does this feature relate to?
+      options:
+        - Security & Encryption
+        - Password Management
+        - User Interface
+        - Organization (Categories, Tags, Search)
+        - Import / Export
+        - Backup & Sync
+        - Accessibility
+        - Performance
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      description: How important is this feature to you?
+      options:
+        - Critical - I can't use MyWorld effectively without this
+        - High - Would significantly improve my experience
+        - Medium - Nice to have
+        - Low - Minor improvement
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem Statement
+      description: What problem does this feature solve? Is your feature request related to a problem?
+      placeholder: "I'm always frustrated when..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: Describe how you envision this feature working
+      placeholder: "I would like to be able to..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Have you considered any alternative solutions or workarounds?
+      placeholder: "I've also thought about..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: mockups
+    attributes:
+      label: Mockups / Examples
+      description: If applicable, add mockups, diagrams, or examples from other apps
+      placeholder: "Drag and drop images here or describe examples..."
+    validations:
+      required: false
+
+  - type: dropdown
+    id: breaking
+    attributes:
+      label: Breaking Changes
+      description: Would this feature require changes to existing behavior?
+      options:
+        - "No - This adds new functionality without changing existing features"
+        - "Minor - Small changes to existing behavior"
+        - "Yes - This would change how existing features work"
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      description: Any other information or context about the feature request
+      placeholder: "Add any other context here..."
+    validations:
+      required: false
+
+  - type: dropdown
+    id: help
+    attributes:
+      label: Would you like to help implement this feature?
+      description: We welcome contributions!
+      options:
+        - "Yes, I'd like to help if possible"
+        - "No, I just want to suggest it"
+    validations:
+      required: false

@@ -1,0 +1,80 @@
+name: Question / Support
+description: Ask a question or get help with MyWorld
+title: "[Question]: "
+labels: ["question", "support"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Need help with MyWorld?
+        We're here to help! Please provide as much detail as possible.
+
+        > **Tip:** For general discussions, consider using [GitHub Discussions](https://github.com/moneraldabai-ui/MyWorld/discussions) instead.
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Pre-submission Checklist
+      description: Please confirm the following before submitting
+      options:
+        - label: I have checked the README and documentation
+          required: true
+        - label: I have searched existing issues for an answer
+          required: true
+
+  - type: dropdown
+    id: topic
+    attributes:
+      label: Question Topic
+      description: What is your question about?
+      options:
+        - Installation / Setup
+        - Usage / How-to
+        - Password Generator
+        - Import / Export
+        - Backup / Recovery
+        - Security / Encryption
+        - Auto-Update
+        - Performance
+        - Compatibility
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: MyWorld Version
+      description: Which version are you using? (Help > About)
+      placeholder: "e.g., 2.0.0"
+    validations:
+      required: false
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Your Question
+      description: What would you like to know?
+      placeholder: "How do I...?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: tried
+    attributes:
+      label: What Have You Tried?
+      description: What steps have you already taken to find an answer?
+      placeholder: "I've tried..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      description: Any other information that might help us answer your question
+      placeholder: "Add any other context here..."
+    validations:
+      required: false
