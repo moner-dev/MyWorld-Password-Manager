@@ -94,7 +94,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### From 1.x to 2.0.0
 
 1. **Backup your vault** before upgrading
-2. Download the [latest installer](https://github.com/moneraldabai-ui/MyWorld/releases/latest)
+2. Download the [latest installer](https://github.com/moneraldabai-ui/MyWorld-Password-Manager-Password-Manager/releases/latest)
 3. Run the installer - it will handle the migration
 4. Verify your data after upgrade
 
@@ -104,14 +104,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Links
 
-- **Download:** [Latest Release](https://github.com/moneraldabai-ui/MyWorld/releases/latest)
-- **Issues:** [Report a Bug](https://github.com/moneraldabai-ui/MyWorld/issues)
+- **Download:** [Latest Release](https://github.com/moneraldabai-ui/MyWorld-Password-Manager-Password-Manager/releases/latest)
+- **Issues:** [Report a Bug](https://github.com/moneraldabai-ui/MyWorld-Password-Manager-Password-Manager/issues)
 - **Security:** [Report Vulnerability](mailto:moner.aldabai@gmail.com)
 
 ---
 
 <p align="center">
-  <a href="https://github.com/moneraldabai-ui/MyWorld">
+  <a href="https://github.com/moneraldabai-ui/MyWorld-Password-Manager-Password-Manager">
     <img src="https://img.shields.io/badge/MyWorld-Changelog-5865F2?style=for-the-badge" alt="Changelog">
   </a>
 </p>

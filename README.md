@@ -10,17 +10,17 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/moneraldabai-ui/MyWorld/releases/latest">
-    <img src="https://img.shields.io/github/v/release/moneraldabai-ui/MyWorld?style=for-the-badge&color=5865F2&label=Version" alt="Latest Release">
+  <a href="https://github.com/moneraldabai-ui/MyWorld-Password-Manager/releases/latest">
+    <img src="https://img.shields.io/github/v/release/moneraldabai-ui/MyWorld-Password-Manager?style=for-the-badge&color=5865F2&label=Version" alt="Latest Release">
   </a>
-  <a href="https://github.com/moneraldabai-ui/MyWorld/releases">
-    <img src="https://img.shields.io/github/downloads/moneraldabai-ui/MyWorld/total?style=for-the-badge&color=5865F2" alt="Downloads">
+  <a href="https://github.com/moneraldabai-ui/MyWorld-Password-Manager/releases">
+    <img src="https://img.shields.io/github/downloads/moneraldabai-ui/MyWorld-Password-Manager/total?style=for-the-badge&color=5865F2" alt="Downloads">
   </a>
   <a href="LICENSE">
-    <img src="https://img.shields.io/github/license/moneraldabai-ui/MyWorld?style=for-the-badge&color=5865F2" alt="License">
+    <img src="https://img.shields.io/github/license/moneraldabai-ui/MyWorld-Password-Manager?style=for-the-badge&color=5865F2" alt="License">
   </a>
-  <a href="https://github.com/moneraldabai-ui/MyWorld/stargazers">
-    <img src="https://img.shields.io/github/stars/moneraldabai-ui/MyWorld?style=for-the-badge&color=5865F2" alt="Stars">
+  <a href="https://github.com/moneraldabai-ui/MyWorld-Password-Manager/stargazers">
+    <img src="https://img.shields.io/github/stars/moneraldabai-ui/MyWorld-Password-Manager?style=for-the-badge&color=5865F2" alt="Stars">
   </a>
 </p>
 
@@ -134,7 +134,7 @@
 ## 📥 Download
 
 <p align="center">
-  <a href="https://github.com/moneraldabai-ui/MyWorld/releases/latest">
+  <a href="https://github.com/moneraldabai-ui/MyWorld-Password-Manager/releases/latest">
     <img src="https://img.shields.io/badge/Download-Latest%20Release-5865F2?style=for-the-badge&logo=windows" alt="Download">
   </a>
 </p>
@@ -143,7 +143,7 @@
 
 | File | Size | Description |
 |------|------|-------------|
-| [**MyWorld_Setup_2.0.0.exe**](https://github.com/moneraldabai-ui/MyWorld/releases/download/v2.0.0/MyWorld_Setup_2.0.0.exe) | ~30 MB | Windows Installer (Recommended) |
+| [**MyWorld_Setup_2.0.0.exe**](https://github.com/moneraldabai-ui/MyWorld-Password-Manager/releases/download/v2.0.0/MyWorld_Setup_2.0.0.exe) | ~30 MB | Windows Installer (Recommended) |
 
 ### System Requirements
 
@@ -326,10 +326,10 @@ If you find MyWorld useful:
 
 | Action | Link |
 |--------|------|
-| ⭐ **Star** | [Star this repository](https://github.com/moneraldabai-ui/MyWorld/stargazers) |
-| 🐛 **Report Bug** | [Open an issue](https://github.com/moneraldabai-ui/MyWorld/issues) |
-| 💡 **Request Feature** | [Open an issue](https://github.com/moneraldabai-ui/MyWorld/issues) |
-| 💬 **Discuss** | [GitHub Discussions](https://github.com/moneraldabai-ui/MyWorld/discussions) |
+| ⭐ **Star** | [Star this repository](https://github.com/moneraldabai-ui/MyWorld-Password-Manager/stargazers) |
+| 🐛 **Report Bug** | [Open an issue](https://github.com/moneraldabai-ui/MyWorld-Password-Manager/issues) |
+| 💡 **Request Feature** | [Open an issue](https://github.com/moneraldabai-ui/MyWorld-Password-Manager/issues) |
+| 💬 **Discuss** | [GitHub Discussions](https://github.com/moneraldabai-ui/MyWorld-Password-Manager/discussions) |
 
 ---
 
@@ -338,7 +338,7 @@ If you find MyWorld useful:
 </p>
 
 <p align="center">
-  <a href="https://github.com/moneraldabai-ui/MyWorld">
+  <a href="https://github.com/moneraldabai-ui/MyWorld-Password-Manager">
     <img src="https://img.shields.io/badge/MyWorld-Password%20Manager-5865F2?style=for-the-badge" alt="MyWorld">
   </a>
 </p>

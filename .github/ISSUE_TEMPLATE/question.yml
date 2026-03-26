@@ -11,7 +11,7 @@ body:
         ## Need help with MyWorld?
         We're here to help! Please provide as much detail as possible.
 
-        > **Tip:** For general discussions, consider using [GitHub Discussions](https://github.com/moneraldabai-ui/MyWorld/discussions) instead.
+        > **Tip:** For general discussions, consider using [GitHub Discussions](https://github.com/moneraldabai-ui/MyWorld-Password-Manager/discussions) instead.
 
   - type: checkboxes
     id: checklist

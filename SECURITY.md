@@ -176,8 +176,8 @@ We consider security research conducted in accordance with this policy to be:
 | Purpose | Contact |
 |---------|---------|
 | 🔒 **Security Reports** | [moner.aldabai@gmail.com](mailto:moner.aldabai@gmail.com) |
-| 🐛 **Bug Reports** | [GitHub Issues](https://github.com/moneraldabai-ui/MyWorld/issues) |
-| 💬 **General Questions** | [GitHub Discussions](https://github.com/moneraldabai-ui/MyWorld/discussions) |
+| 🐛 **Bug Reports** | [GitHub Issues](https://github.com/moneraldabai-ui/MyWorld-Password-Manager-Password-Manager/issues) |
+| 💬 **General Questions** | [GitHub Discussions](https://github.com/moneraldabai-ui/MyWorld-Password-Manager-Password-Manager/discussions) |
 
 ---
 
@@ -186,5 +186,5 @@ We consider security research conducted in accordance with this policy to be:
 </p>
 
 <p align="center">
-  <a href="https://github.com/moneraldabai-ui/MyWorld">← Back to Repository</a>
+  <a href="https://github.com/moneraldabai-ui/MyWorld-Password-Manager-Password-Manager">← Back to Repository</a>
 </p>
