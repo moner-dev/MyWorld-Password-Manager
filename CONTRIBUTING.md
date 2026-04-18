@@ -17,12 +17,12 @@ Thank you for your interest in contributing to **MyWorld Password Manager**! Eve
 
 | Type | Description | Link |
 |------|-------------|------|
-| **Bug Reports** | Found a bug? Let us know | [Open Issue](https://github.com/moneraldabai-ui/MyWorld-Password-Manager/issues/new?labels=bug) |
-| **Feature Requests** | Have an idea? Share it | [Open Issue](https://github.com/moneraldabai-ui/MyWorld-Password-Manager/issues/new?labels=enhancement) |
-| **Documentation** | Improve docs, fix typos | [Open PR](https://github.com/moneraldabai-ui/MyWorld-Password-Manager/pulls) |
-| **Translations** | Help translate MyWorld | [Open Issue](https://github.com/moneraldabai-ui/MyWorld-Password-Manager/issues/new?labels=translation) |
-| **Security** | Report vulnerabilities | [Email](mailto:moner.aldabai@gmail.com) |
-| **Feedback** | Share your experience | [Discussions](https://github.com/moneraldabai-ui/MyWorld-Password-Manager/discussions) |
+| **Bug Reports** | Found a bug? Let us know | [Open Issue](https://github.com/moner-dev/MyWorld-Password-Manager/issues/new?labels=bug) |
+| **Feature Requests** | Have an idea? Share it | [Open Issue](https://github.com/moner-dev/MyWorld-Password-Manager/issues/new?labels=enhancement) |
+| **Documentation** | Improve docs, fix typos | [Open PR](https://github.com/moner-dev/MyWorld-Password-Manager/pulls) |
+| **Translations** | Help translate MyWorld | [Open Issue](https://github.com/moner-dev/MyWorld-Password-Manager/issues/new?labels=translation) |
+| **Security** | Report vulnerabilities | [Email](mailto:moner.intelligence@gmail.com) |
+| **Feedback** | Share your experience | [Discussions](https://github.com/moner-dev/MyWorld-Password-Manager/discussions) |
 
 ---
 
@@ -31,7 +31,7 @@ Thank you for your interest in contributing to **MyWorld Password Manager**! Eve
 ### Before Submitting
 
 1. **Search existing issues** - Your bug may already be reported
-2. **Use latest version** - Ensure you're on the [latest release](https://github.com/moneraldabai-ui/MyWorld-Password-Manager/releases/latest)
+2. **Use latest version** - Ensure you're on the [latest release](https://github.com/moner-dev/MyWorld-Password-Manager/releases/latest)
 3. **Reproduce the bug** - Confirm it happens consistently
 
 ### What to Include
@@ -180,7 +180,7 @@ Help make MyWorld accessible to more users by contributing translations.
 
 | Method | Contact |
 |--------|---------|
-| **Email** | [moner.aldabai@gmail.com](mailto:moner.aldabai@gmail.com) |
+| **Email** | [moner.intelligence@gmail.com](mailto:moner.intelligence@gmail.com) |
 | **Subject** | `[SECURITY] Brief description` |
 
 ### What to Include
@@ -245,10 +245,10 @@ Contributors are recognized in the following ways:
 
 | Question Type | Where to Ask |
 |---------------|--------------|
-| Usage help | [Discussions](https://github.com/moneraldabai-ui/MyWorld-Password-Manager/discussions) |
-| Bug clarification | [Issues](https://github.com/moneraldabai-ui/MyWorld-Password-Manager/issues) |
-| Security concerns | [Email](mailto:moner.aldabai@gmail.com) |
-| General feedback | [Discussions](https://github.com/moneraldabai-ui/MyWorld-Password-Manager/discussions) |
+| Usage help | [Discussions](https://github.com/moner-dev/MyWorld-Password-Manager/discussions) |
+| Bug clarification | [Issues](https://github.com/moner-dev/MyWorld-Password-Manager/issues) |
+| Security concerns | [Email](mailto:moner.intelligence@gmail.com) |
+| General feedback | [Discussions](https://github.com/moner-dev/MyWorld-Password-Manager/discussions) |
 
 ---
 
@@ -257,7 +257,7 @@ Contributors are recognized in the following ways:
 </p>
 
 <p align="center">
-  <a href="https://github.com/moneraldabai-ui/MyWorld-Password-Manager">
+  <a href="https://github.com/moner-dev/MyWorld-Password-Manager">
     <img src="https://img.shields.io/badge/MyWorld-Contributing-5865F2?style=for-the-badge" alt="Contributing">
   </a>
 </p>

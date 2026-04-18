@@ -84,7 +84,7 @@ We appreciate the security research community's efforts in helping keep our user
 
 ### 📧 How to Report
 
-**Email:** [moner.aldabai@gmail.com](mailto:moner.aldabai@gmail.com)
+**Email:** [moner.intelligence@gmail.com](mailto:moner.intelligence@gmail.com)
 
 **Subject Line:** `[SECURITY] Brief description`
 
@@ -175,9 +175,9 @@ We consider security research conducted in accordance with this policy to be:
 
 | Purpose | Contact |
 |---------|---------|
-| 🔒 **Security Reports** | [moner.aldabai@gmail.com](mailto:moner.aldabai@gmail.com) |
-| 🐛 **Bug Reports** | [GitHub Issues](https://github.com/moneraldabai-ui/MyWorld-Password-Manager-Password-Manager/issues) |
-| 💬 **General Questions** | [GitHub Discussions](https://github.com/moneraldabai-ui/MyWorld-Password-Manager-Password-Manager/discussions) |
+| 🔒 **Security Reports** | [moner.intelligence@gmail.com](mailto:moner.intelligence@gmail.com) |
+| 🐛 **Bug Reports** | [GitHub Issues](https://github.com/moner-dev/MyWorld-Password-Manager/issues) |
+| 💬 **General Questions** | [GitHub Discussions](https://github.com/moner-dev/MyWorld-Password-Manager/discussions) |
 
 ---
 
@@ -186,5 +186,5 @@ We consider security research conducted in accordance with this policy to be:
 </p>
 
 <p align="center">
-  <a href="https://github.com/moneraldabai-ui/MyWorld-Password-Manager-Password-Manager">← Back to Repository</a>
+  <a href="https://github.com/moner-dev/MyWorld-Password-Manager">← Back to Repository</a>
 </p>

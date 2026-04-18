@@ -21,7 +21,7 @@ This repository contains **release builds only** for MyWorld Password Manager. T
 
 ### Download & Install
 
-1. Download the latest installer from [GitHub Releases](https://github.com/moneraldabai-ui/MyWorld/releases/latest)
+1. Download the latest installer from [GitHub Releases](https://github.com/moner-dev/MyWorld-Password-Manager/releases/latest)
 2. Run `MyWorld_Setup_x.x.x.exe`
 3. Follow the installation wizard
 4. Launch MyWorld from your desktop or Start menu
@@ -221,19 +221,19 @@ Each release includes:
 
 | Purpose | Contact |
 |---------|---------|
-| Bug Reports | [GitHub Issues](https://github.com/moneraldabai-ui/MyWorld/issues) |
-| Feature Requests | [GitHub Issues](https://github.com/moneraldabai-ui/MyWorld/issues) |
-| Security Issues | [moner.aldabai@gmail.com](mailto:moner.aldabai@gmail.com) |
-| General Questions | [GitHub Discussions](https://github.com/moneraldabai-ui/MyWorld/discussions) |
+| Bug Reports | [GitHub Issues](https://github.com/moner-dev/MyWorld-Password-Manager/issues) |
+| Feature Requests | [GitHub Issues](https://github.com/moner-dev/MyWorld-Password-Manager/issues) |
+| Security Issues | [moner.intelligence@gmail.com](mailto:moner.intelligence@gmail.com) |
+| General Questions | [GitHub Discussions](https://github.com/moner-dev/MyWorld-Password-Manager/discussions) |
 
 ---
 
 <p align="center">
-  <a href="https://github.com/moneraldabai-ui/MyWorld/releases/latest">
+  <a href="https://github.com/moner-dev/MyWorld-Password-Manager/releases/latest">
     <img src="https://img.shields.io/badge/Download-Latest%20Release-5865F2?style=for-the-badge" alt="Download">
   </a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/moneraldabai-ui/MyWorld">Back to Repository</a>
+  <a href="https://github.com/moner-dev/MyWorld-Password-Manager">Back to Repository</a>
 </p>
