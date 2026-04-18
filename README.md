@@ -134,7 +134,7 @@
 ## 📥 Download
 
 <p align="center">
-  <a href="https://github.com/moneraldabai-ui/MyWorld-Password-Manager/releases/latest">
+  <a href="https://github.com/moner-dev/MyWorld-Password-Manager/releases/latest">
     <img src="https://img.shields.io/badge/Download-Latest%20Release-5865F2?style=for-the-badge&logo=windows" alt="Download">
   </a>
 </p>
@@ -143,7 +143,7 @@
 
 | File | Size | Description |
 |------|------|-------------|
-| [**MyWorld_Setup_2.0.0.exe**](https://github.com/moneraldabai-ui/MyWorld-Password-Manager/releases/download/v2.0.0/MyWorld_Setup_2.0.0.exe) | ~30 MB | Windows Installer (Recommended) |
+| [**MyWorld_Setup_2.0.0.exe**](https://github.com/moner-dev/MyWorld-Password-Manager/releases/download/v2.0.0/MyWorld_Setup_2.0.0.exe) | ~30 MB | Windows Installer (Recommended) |
 
 ### System Requirements
 
@@ -348,10 +348,10 @@ This project is licensed under the **MIT License** — see [LICENSE](LICENSE) fo
 <tr>
 <td>
 
-**M. O. N. E. R**
+**MONER INTELLIGENCE SYSTEMS**
 
-[![GitHub](https://img.shields.io/badge/GitHub-moneraldabai--ui-181717?style=flat-square&logo=github)](https://github.com/moneraldabai-ui)
-[![Email](https://img.shields.io/badge/Email-moner.aldabai%40gmail.com-EA4335?style=flat-square&logo=gmail)](mailto:moner.aldabai@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-moner--dev-181717?style=flat-square&logo=github)](https://github.com/moner-dev)
+[![Email](https://img.shields.io/badge/Email-moner.intelligence%40gmail.com-EA4335?style=flat-square&logo=gmail)](mailto:moner.intelligence@gmail.com)
 
 </td>
 </tr>
@@ -365,10 +365,10 @@ If you find MyWorld useful:
 
 | Action | Link |
 |--------|------|
-| ⭐ **Star** | [Star this repository](https://github.com/moneraldabai-ui/MyWorld-Password-Manager/stargazers) |
-| 🐛 **Report Bug** | [Open an issue](https://github.com/moneraldabai-ui/MyWorld-Password-Manager/issues) |
-| 💡 **Request Feature** | [Open an issue](https://github.com/moneraldabai-ui/MyWorld-Password-Manager/issues) |
-| 💬 **Discuss** | [GitHub Discussions](https://github.com/moneraldabai-ui/MyWorld-Password-Manager/discussions) |
+| ⭐ **Star** | [Star this repository](https://github.com/moner-dev/MyWorld-Password-Manager/stargazers) |
+| 🐛 **Report Bug** | [Open an issue](https://github.com/moner-dev/MyWorld-Password-Manager/issues) |
+| 💡 **Request Feature** | [Open an issue](https://github.com/moner-dev/MyWorld-Password-Manager/issues) |
+| 💬 **Discuss** | [GitHub Discussions](https://github.com/moner-dev/MyWorld-Password-Manager/discussions) |
 
 ---
 
@@ -377,7 +377,7 @@ If you find MyWorld useful:
 </p>
 
 <p align="center">
-  <a href="https://github.com/moneraldabai-ui/MyWorld-Password-Manager">
+  <a href="https://github.com/moner-dev/MyWorld-Password-Manager">
     <img src="https://img.shields.io/badge/MyWorld-Password%20Manager-5865F2?style=for-the-badge" alt="MyWorld">
   </a>
 </p>
